@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/** {
+    padding: 0;
+    margin: 0;
+}*/
+
+body {
+    background-color: #fcb57f;
+    color: #57296c;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 40px rgba(160, 93, 226, 0.9);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #664e70;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 20px; */
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}    
+/*
+.social {
+    background-color: rgb(147, 217, 169);
+    padding: 15px 50px 30px 30px;
+
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color: blue;
+
+    margin: 20px;
+}
+
+.box-model > div {
+    float: left;
+    background: #57296c;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}
+*/
+
+.bg-yellow {
+    background: rgb(225, 235, 37);
+}
+
+.bg-green {
+    background: rgb(5, 236, 132);
+}
+
+.bg-red {
+    background: rgb(244, 41, 78);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding-left: 17px;
+}
+
+.list li {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: gray
+}
+
+/*.table tr:nth-child(odd) {
+    background: orange;
+}*/
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    }
+
+.contact h2 {
+    text-align: center;
+}    
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: grey;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(120, 123, 130);
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+margin-right: 0;
+}
+
+.btn {
+    background: gray;
+    padding: 15px 20px;
+    color: purple;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Position*/
+
+/* .position {
+    position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+        width: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
